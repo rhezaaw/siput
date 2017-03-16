@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controller.user;
+package controller.application.employe;
 
 //import controller.application.employe.AddEmployeController;
 //import controller.application.employe.ViewEmployeController;

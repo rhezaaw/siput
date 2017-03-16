@@ -5,7 +5,7 @@
  */
 package controller;
 
-import controller.user.EmployeController;
+import controller.application.employe.EmployeController;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -183,7 +183,7 @@ public class MainMenuAController implements Initializable {
 //        EmployeController ec = new EmployeController();
 //        userNameMedia nm = new userNameMedia();
         FXMLLoader fXMLLoader = new FXMLLoader();
-        fXMLLoader.load(getClass().getResource("/view/Employe.fxml").openStream());
+        fXMLLoader.load(getClass().getResource("/view/Employe/Employe.fxml").openStream());
 //        nm.setId(id);
         EmployeController employeController = fXMLLoader.getController();
         employeController.bpContent.getStylesheets().add("/style/MainStyle.css");
@@ -217,7 +217,7 @@ public class MainMenuAController implements Initializable {
         homeActive();
         FXMLLoader fxmlLoader = new FXMLLoader();
         try {
-            fxmlLoader.load(getClass().getResource("/view/beranda.fxml").openStream());
+            fxmlLoader.load(getClass().getResource("/view/Beranda/beranda.fxml").openStream());
         } catch (IOException e) {
 
         }
